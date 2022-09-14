@@ -42,14 +42,6 @@ def get_all_post(all_post):
     # print(result_proc_text)
     # print("................................................\n")
 # def save_file(list_result):
-def readfile(path_fle):
-    try:
-        f=open(path_fle)
-        data=json.load(f)
-        print(data)
-        return data
-    except:
-        return None
 def read_json(path):
     with open(path,'r', encoding='utf-8') as f:
         data=json.load(f)
@@ -65,7 +57,6 @@ def check(i, data):
         return True
 
 def detect_new_post(path_file,all_post_new):
-    all_post_old=readfile(path_file)
     data_read=read_json(path_file)
     result=[]
     for i in all_post_new:

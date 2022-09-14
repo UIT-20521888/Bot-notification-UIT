@@ -2,7 +2,7 @@
 
 #!/usr/bin/env bash
 
-. ../../Bot-notification-UIT/bin/activate
+. env/bin/activate
 
 python3 src/send_messebger.py
 
@@ -13,4 +13,4 @@ python3 src/detect_new_post_cs.py
 python3 src/detect_new_post_daa.py
 
 # echo 'get special news'
-python3 src/detect_new_pots_ctsv.py
+python3 src/detect_new_post_ctsv.py

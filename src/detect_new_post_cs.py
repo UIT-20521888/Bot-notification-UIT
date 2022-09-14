@@ -5,7 +5,7 @@ import json
 from datetime import datetime
 from send_messebger import send_message
 import asyncio
-from detect_new_pots_ctsv import read_json,save_file,check
+from detect_new_post_ctsv import read_json,save_file,check
 url='http://cs.uit.edu.vn'
 def get_sourse(url):
     page=requests.get(url,verify=False)
