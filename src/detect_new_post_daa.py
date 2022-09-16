@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import json
 from datetime import datetime
-from send_messebger import send_message
+from send_messenger import send_message
 import asyncio
 from detect_new_post_ctsv import read_json,save_file,check
 from detect_new_post_cs import get_sourse
@@ -34,7 +34,7 @@ def detect_new_post_daa(post_old,post_new):
     if len(result)!=0:
         asyncio.run(send_message("Phòng đào tạo có thông báo mới. Mời xem!!!"))
     for i in result:
-        print(i['link'])
+        # print(i['link'])
         asyncio.run(send_message(i['link']))
 def run_daa(url,path_file):
     page_source=get_sourse(url)

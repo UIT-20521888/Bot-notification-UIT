@@ -36,11 +36,6 @@
             "date": "02/06/2022"
         },
         {
-            "title": "Thông báo kết quả cập nhật BHYT cập nhật ngày 24/8/2022",
-            "link": "https://ctsv.uit.edu.vn/bai-viet/thong-bao-ket-qua-cap-nhat-bhyt-cap-nhat-ngay-2482022",
-            "date": "24/08/2022"
-        },
-        {
             "title": "THÔNG BÁO Về việc thực hiện khảo sát nhu cầu vay tín dụng của Sinh viên ĐHQG-HCM",
             "link": "https://ctsv.uit.edu.vn/bai-viet/thong-bao-ve-viec-thuc-hien-khao-sat-nhu-cau-vay-tin-dung-cua-sinh-vien-dhqg-hcm",
             "date": "25/08/2022"
@@ -66,9 +61,14 @@
             "date": "12/09/2022"
         },
         {
-            "title": "Đăng ký tham gia Sinh hoạ Công dân Sinh viên đầu năm học 2022-2023",
+            "title": "Đăng ký tham gia Sinh hoạt Công dân Sinh viên đầu năm học 2022-2023",
             "link": "https://ctsv.uit.edu.vn/bai-viet/dang-ky-tham-gia-sinh-hoat-cong-dan-sinh-vien-dau-nam-hoc-2022-2023",
             "date": "13/09/2022"
+        },
+        {
+            "title": "Thông báo mua BHYT 3 tháng cuối năm 2022 Dành cho Khóa cũ",
+            "link": "https://ctsv.uit.edu.vn/bai-viet/thong-bao-mua-bhyt-3-thang-cuoi-nam-2022-danh-cho-khoa-cu",
+            "date": "14/09/2022"
         }
     ]
 }

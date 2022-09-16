@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import json
 from datetime import datetime
-from send_messebger import send_message
+from send_messenger import send_message
 import asyncio
 url='https://ctsv.uit.edu.vn'
 def filter_link(page_source):

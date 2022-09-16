@@ -4,7 +4,8 @@
 
 . env/bin/activate
 
-python3 src/send_messebger.py
+# echo "send messenger"
+python3 src/send_messenger.py
 
 # echo 'get common news'
 python3 src/detect_new_post_cs.py
